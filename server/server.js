@@ -1,8 +1,7 @@
 const express = require ('express');
 const app = express();
 const cors = require ('cors');
-// app.engine('html', handle.engine({extname: '.hbs'}));
-// app.set('view engine', 'html');
+
 
 app.use(express.json());
 app.use(cors());
